@@ -14,7 +14,7 @@ public class Task08Main {
 
     static long mult(int[] arr) {
         long tmp = 1;
-        for (int i: arr)
+        for (int i : arr)
             tmp *= i;
         if (arr.length != 0)
             return tmp;
