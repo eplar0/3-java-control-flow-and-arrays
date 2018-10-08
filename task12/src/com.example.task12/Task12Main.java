@@ -21,7 +21,7 @@ public class Task12Main {
             for (int i = j + 1; i < arr.length; i++) {
                 if (arr[i] < arr[min])
                     min = i;
-                    }
+            }
             tmp = arr[min];
             arr[min] = arr[j];
             arr[j] = tmp;
