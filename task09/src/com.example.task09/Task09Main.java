@@ -15,10 +15,10 @@ public class Task09Main {
 
     static int min(int[] arr) {
         int tmp = arr[0];
-        for (int i: arr)
+        for (int i : arr)
             if (i < tmp)
                 tmp = i;
-            return  tmp;
+        return tmp;
     }
 
 }
